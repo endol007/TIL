@@ -1,0 +1,91 @@
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #0F5298;
+    border-bottom-width: 1px;
+    border-bottom-color: #0F5298;
+    border-bottom-style: solid;
+    height: 92px;
+    display: inline-block;
+}
+.navbar_login {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #0F5298;
+    border-bottom-width: 1px;
+    border-bottom-color: #0F5298;
+    border-bottom-style: solid;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.Logo{
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+.navbar_login_logo_wrap{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar_login_logo{
+    width: 180px;
+}
+.Logo_login{
+    font-size: 100px;
+    text-align: center;
+    color: black;
+}
+.login-button{
+    /*width: 100px;*/
+    background-color: white;
+    color: white;
+    float: right;
+}
+.share-btn{
+    background-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    width: 120px;
+    height: 40px;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.Login{
+    color: black;
+}
+
+.section {
+    margin-top: 5%;
+}
+
+.button.is-sparta {
+    background-color: #0F5298;
+    border-color: transparent;
+    color: white !important;
+}
+
+.button.is-sparta.is-outlined {
+    background-color: transparent;
+    border-color: #0F5298;
+    color: black !important;
+}
+
+.help {
+    color: gray;
+}
+
+.hidden {
+    display: none;
+}
+
