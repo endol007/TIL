@@ -1,9 +1,6 @@
-import sys
+from math import factorial
 
-n, k = sys.stdin.readline().split()
-
-
-def number(a):
-    return number(a-1)*number(a-2)
-
-print(number(int(n)))
+n, k = map(int, input().split())
+coefficient = factorial(n) // (factorial(k) * factorial(n-k))
+    
+print(coefficient)
