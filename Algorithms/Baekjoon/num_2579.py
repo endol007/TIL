@@ -1,12 +1,16 @@
 n = int(input())
 
-s_number = {
-    1: 0
-}
-for i in range(1, n+1):
-    s = int(input())
-    s_number[i] = s
+dp = [0 for _ in range(n+3)]
+arr = [0 for _ in range(n+3)]
 
-def up_stairs(number, n):
-    if n in number:
-        return number
+for k in range(1, n + 1):
+    arr[k] = int(input())
+
+dp[1] = arr[1]
+dp[2] = arr[1] + arr[2]
+dp[3] = max(arr[1] + arr[3], arr[2] + arr[3])
+
+for i in range(4, n+1):
+    dp[i] = max( dp[i-3] + arr[i-1] + arr[i] ,  dp[i-2] + arr[i] )
+
+print(dp[n])
