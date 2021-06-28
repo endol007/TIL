@@ -4,4 +4,6 @@
 
 #### 6월 11일 ~ 6월 23일 알고리즘 마라톤 1~56번까지 완료 https://github.com/endol007/TIL/tree/main/Algorithms 
 
+#### 6월 24일 ~ 6월 27일 리액트 강의 수강 https://github.com/endol007/React
+
 #### 6/28일 리액트 과제 시작 https://github.com/endol007/week4_project
