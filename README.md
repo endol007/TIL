@@ -8,3 +8,5 @@
 
 #### 6/28일 리액트 과제 시작 https://github.com/endol007/week4_project
 나만의 사전 컴포넌트 디자인 및 firestore랑 redux연동 완료  
+#### 6월 29일 리액트과제 완료 https://github.com/endol007/week4_project
+나만의 사전 컴포넌트 WordData추가 및 데이터 삭제 기능 추가 완료
