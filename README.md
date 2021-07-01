@@ -12,12 +12,12 @@
 
 <hr/>
 
-####  6/28일 리액트 과제 시작 
+####  6월 28일 리액트 과제 시작 
 나만의 사전 컴포넌트 디자인 및 firestore랑 redux연동 완료  
 ####  6월 29일 리액트과제 완료 
 나만의 사전 컴포넌트 WordData추가 및 데이터 삭제 기능 추가 완료
 ####  6월 30일 https://github.com/endol007/week4_project
 나만의 사전 각 단어별 예시 추가기능 구현완료
-####  7월 1일 리액트 과제 제출 http://donghwan.shop
-나만의 사전 amazon s3와 routing53을 가지고 배포 완료
+####  7월 1일 리액트 과제 제출 https://github.com/endol007/week4_project
+나만의 사전 amazon s3와 routing53을 가지고 배포 완료 http://donghwan.shop
 
