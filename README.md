@@ -21,4 +21,4 @@
 ####  7월 1일 리액트 과제 제출 https://github.com/endol007/week4_project
 나만의 사전 amazon s3와 routing53을 가지고 배포 완료 http://donghwan.shop
 
-#### 7월 2일~ 7월 3일 리액트 심화과졍 수강 시작
+#### 7월 2일~ 7월 3일 리액트 심화과 수강 시작
