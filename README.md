@@ -22,3 +22,6 @@
 나만의 사전 amazon s3와 routing53을 가지고 배포 완료 http://donghwan.shop
 
 #### 7월 2일~ 7월 3일 리액트 심화과 수강 시작
+
+#### 7월 5일 https://github.com/endol007/week5_project
+현재 댓글기능까지 완료 및 좋아요 기능 추가하기 전까지 커밋해놓음
