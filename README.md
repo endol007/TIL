@@ -26,3 +26,5 @@
 #### 7월 5일 ~ 7월 8일 https://github.com/endol007/week5_project
 현재 댓글기능까지 완료 및 좋아요 기능 추가하기 전까지 커밋해놓음 ///알림기능 및 레이아웃 a, b, c선택지 추가 및 구현 완료 그리고 좋아요 기능 추가 진행중..
 마지막날 매거진 사이트 완성 및 react-spring이용해서 하트 애니메이션 추가
+#### 7월 9일~ 10일 https://github.com/ombreman/miniproject_team18_frontend
+새로운 미니 프로젝트 시작(스터디원 모집사이트) 현재 ui페이지 및 redux스토어 이용해서 페이지간 라우팅까지 구현 완료
