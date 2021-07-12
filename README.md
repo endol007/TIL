@@ -4,7 +4,7 @@
 
 <hr/>
 
-####  6월 11일 ~ 6월 23일 알고리즘 마라톤 1~56번까지 완료 https://github.com/endol007/TIL/tree/main/Algorithms 
+####  6월 11일 ~ 6월 23일 알고리즘 마라톤 1~60번까지 완료 https://github.com/endol007/TIL/tree/main/Algorithms 
 
 <hr/>
 
