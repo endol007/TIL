@@ -26,7 +26,8 @@
 #### 7월 5일 ~ 7월 8일 https://github.com/endol007/week5_project
 현재 댓글기능까지 완료 및 좋아요 기능 추가하기 전까지 커밋해놓음 ///알림기능 및 레이아웃 a, b, c선택지 추가 및 구현 완료 그리고 좋아요 기능 추가 진행중..
 마지막날 매거진 사이트 완성 및 react-spring이용해서 하트 애니메이션 추가
-#### 7월 9일~ 11일 https://github.com/ombreman/miniproject_team18_frontend
+#### 7월 9일~ 13일 https://github.com/ombreman/miniproject_team18_frontend
 새로운 미니 프로젝트 시작(스터디원 모집사이트)-항해에서 처음으로 백엔드와의 협업 시작
 UI페이지 구성 짜는 것 및 redux스토어 이용해서 페이지간 라우팅 구현 및 페이지 이동 애니메이션 구현 완료
 리덕스 커스텀 모듈로 각 게시글 서버에서 불러오기 및 수정 구현 완료
+api서버와 연결 완료 및 게시글, 댓글 기능 구현완료 및 로그인 로그아웃페이지 ui구성하고 input값을 받는것 까지 완료
