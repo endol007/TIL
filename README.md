@@ -33,5 +33,5 @@
 #### 7월 9일~ 15일 https://github.com/ombreman/miniproject_team18_frontend
 
 
-#### 7월 16일 ~ 22일 슬랙 클론코딩 진행중 https://github.com/endol007/SlackcloneCoding  (마무리)
+#### 7월 16일 ~ 22일 슬랙 클론코딩  https://github.com/endol007/SlackcloneCoding  (마무리)
 
