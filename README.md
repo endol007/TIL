@@ -35,4 +35,4 @@
 
 #### 7월 16일 ~ 22일 슬랙 클론코딩  https://github.com/endol007/SlackcloneCoding  (마무리)
 
-#### 7월 23일 ~ 27일 ohsool 실전 프로젝트 시작 https://github.com/ohsool/frontend
+#### 7월 23일 ~ 30일 ohsool 실전 프로젝트 진행중 https://github.com/ohsool/front-end
