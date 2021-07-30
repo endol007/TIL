@@ -1,0 +1,26 @@
+# 오늘 작업
+- ohsool mypage 및 signup 페이지 및 하위컴포넌트들 구현
+- 회원가입/로그인 및 마이페이지 건의하기 부분 redux custom module, 서버연결 구현
+
+### react-slick
+리액트에서 컴포넌트들을 슬라이드 형식으로 보여 줄 때 주로 쓰는 라이브러리이다.
+~~~javascript
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+...
+const settings = {
+        infinite: true,
+        speed: 200,
+        slidesToShow: 5,//show
+        slidesToScroll: 3,//scroll
+        variableWidth: true, // slider 간격조정
+        arrows: false,
+    };
+...
+<StyledSlider {...settings}>
+  <div> .... </div> //div여러개
+</StyledSlider>
+~~~
+이런식으로 한 화면에 보여줄 컴포넌트 개수나 스크롤했을때 넘어가는 개수 등등 여러가지로 설정이 가능하다.
+그리고 각각 안의 div요소들을 너비를 직접 커스텀으로 설정하고 싶으면 variableWidth를 true로 놓고 써야된다 아니면 무조건 간격이 일정하게 조정된다.
