@@ -1,0 +1,44 @@
+- 카테고리별 무한스크롤 적용할때 해당카테고리가 다음페이지 없을 시 다른카테고리페이지로 넘어갔을때 이전ID값의 상태가 남아있는 문제 발생
+
+그래서 첫렌더링 이후 부터 categoryId가 바뀔때마다 해당카테고리의 첫번째 페이지를 불러오기 위해 함수를 구현함
+~~~javascript
+import React, { useEffect, useRef } from 'react';
+
+const useDidMountEffect = (func, deps) => {
+	const didMount = useRef(false);
+
+	useEffect(() => {
+		if (didMount.current) func(); //두번째부터 didMout.current가 ture이므로 func 실행
+		else didMount.current = true; //첫실행시에 didMount.current 를 true로 바꿈
+	}, deps);
+};
+
+export default useDidMountEffect;
+~~~
+useDidMountEffect를 이용해서 beerCategoryId가 바뀔때마다 실행되도록 함수를 구현
+~~~javascript
+useDidMountEffect(() => {
+        setPaging(0);
+        setBeers([]);
+        dispatch(getBeerCategoryList({
+            categoryId: beerCategoryId,
+            pageNo: 0,
+        }));
+        setPaging(1)
+        setLoading(false);
+    }, [beerCategoryId]);
+~~~
+페이징 및 로딩까지 다음페이지를 불러올수 있게 만들어봤는데 여전히 첫번째페이지가 이전카테고리의 Id값을 들고 있었다.
+그래서 함수마다 상태를 하나하나 확인해보니 스크롤이벤트를 등록하고 클린업하는 useEffect에서 바뀌지 않는 것을 찾아냈다.
+~~~javascript
+useEffect(() => {
+        if(loading){
+            return;
+        }
+        window.addEventListener("scroll", _handleScroll); // scroll event listener 등록
+        return () => {
+            window.removeEventListener("scroll", _handleScroll); // scroll event listener 해제
+        };
+    }, [pagingCate, loading, beerCategoryId]); //deps가 바뀔때마다 클린업
+~~~
+그래서 beerCategoryId가 바뀔때마다 클린업을 진행해주니 원하는대로 해당카테고리의 Id값을가지고 정상적으로 다음페이지를 불러왔다.
