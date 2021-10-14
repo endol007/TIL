@@ -1,5 +1,7 @@
 # TIL
 
+## 벨로그(https://velog.io/@endol007)
+
 ####  6월 7일~6월10일 팀 프로젝트 1주차 과제 https://github.com/endol007/TIL/tree/main/Hanghae_week1
 
 <hr/>
